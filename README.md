@@ -3,7 +3,8 @@
 ## Overview
 Cinemate is a movie social media platform.  Think Facebook meets Rotten Tomatoes.  It allows users to search and rate movies, while also viewing the reviews of their friends.
 
-To retrieve movie information, it pulls from the TMDB and OMDB APIs.  To retrieve use information, it pulls from a SQL database.
+To retrieve movie information, it uses the TMDB and OMDB APIs.  
+To retrieve user information, it uses a SQL database.
 
 Note: This was a class project, so its technical and visual specifications were determined by the instructor.
 
