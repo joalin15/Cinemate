@@ -19,9 +19,10 @@ Back-end:
 * Apache
 
 ## Instructions
-1. Import this project into Eclipse as a Dynamic Web Project.
-2. Specify your MySQL username and password in the 'config.txt' file under Java Resources/src/
-3. Run on Apache web server
+1. Create database by running SQL script 'cinemate.sql'
+2. Import this project into Eclipse as a Dynamic Web Project.
+3. Specify your MySQL username and password in the 'config.txt' file under Java Resources/src/
+4. Run on Apache web server
 
 Note: To toggle between searching movies and searching users, click the movie shutter-board icon in the search bar
 
