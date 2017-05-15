@@ -1,0 +1,189 @@
+@CHARSET "UTF-8";
+
+#movie-page-table {
+	top: inherit;
+	left: 0;
+	height: auto;
+	min-height: inherit;
+	position: fixed;
+	width: 100%;
+}
+
+.top, .bottom {
+	position: fixed;
+	width: 100%;
+	left: 0;
+}
+
+.top {
+	position: fixed;
+	height: 45%;
+	background: #ea0000;
+	top: 80px;
+	border-bottom: 5px dotted white;
+	min-height: 250px;
+}
+
+.movie-image-action {
+	width: 30%;
+}
+
+.movie-info {
+	width: 70%;
+	left: 30%;
+}
+
+.bottom {
+	top: calc(45% + 100px);
+	height: 40%;
+	overflow: scroll;
+}
+
+/* td: movie-image-action */
+.movie-image-action-contents {
+	position: relative;
+	width: 35%;
+	margin-left: 65%;
+}
+
+.movie-image-action-contents-top {
+	height: 80%;
+}
+
+.movie-image-action-contents-bottom {
+	height: 20%;
+}
+
+#movie-image-pic {
+	position: relative;
+	height: auto;
+	width: 100%;
+	top: 12%;
+}
+
+.icon-button {
+	position: relative;
+	width: 31%;
+	padding: 1px;
+	background: none;
+	border: none;
+}
+
+.icon-button:focus {
+	outline: 0;
+}
+
+.movie-page-icon {
+	position: relative;
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.float-left {
+	float: left;
+}
+
+/* td: movie information */
+.movie-info-container {
+	height: 100%;
+	padding-left: 20px;
+}
+
+.movie-info-container-top {
+	text-align: left;
+	width: 100%;
+}
+
+.movie-info-container-middle {
+	text-align: left;
+	width: 100%;
+}
+
+.movie-info-container-bottom {
+	text-align: left;
+	width: 100%;
+}
+
+#movie-id {
+	display: none;
+}
+
+#rating, #imdb-rating {
+	display: inline;
+}
+
+.ratings-header {
+	width: 65px;
+	text-align: center;
+}
+
+#rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+#rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+#imdb-rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: lightyellow;
+}
+
+#rating > span:hover:before,
+#rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: #ffcccc;
+}
+
+/* ACTORS BOTTOM */
+
+.movie-actor-content {
+	margin: 0 auto;
+	width: 30%;
+	padding: 5px 0;
+}
+
+.movie-actors-header {
+	text-align: center;
+}
+
+.movie-actors-header-font {
+	text-decoration: underline;
+}
+
+.movie-actor {
+	height: 120px;
+	min-height: 120px;
+	padding: 5px 0;
+}
+
+.movie-actor-image {
+	width: 20%;
+	text-align: center;
+}
+
+.movie-actor-image-img {
+	height: 120px;
+	max-height: 120px;
+	width: auto;
+	width: 85px;
+	max-width: 85px;
+}
+
+.movie-actor-name {
+	font-size: 1.5em;
+	
+}
+
+h2 {
+	display: inline;
+	margin-right: 8px;
+}

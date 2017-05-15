@@ -1,0 +1,125 @@
+/* OVERALL STYLING */
+html, body {
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+
+  margin: 0;
+  padding: 0;
+
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+
+  min-height: 100%;
+  
+  height: 100%;
+}
+
+#wrapper {
+	height: 100%
+}
+
+#header, #content, #footer {
+  position: absolute;
+  background-color: #cc0000;
+}
+
+#header, #footer {
+  border: 5px dotted white;
+  left: 0;  
+  right: 0;
+  width: calc(100% - 10px);
+  text-align: center;  
+  z-index: 5;
+}
+
+#header {
+  min-height: 200px;
+  top: 0;
+}
+
+#content {
+  top: 210px;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+
+  min-height: 300px;
+
+  background-color: #ff3333;
+  z-index: 3;
+}
+
+#footer {
+  bottom: 0;
+  min-height: 50px;
+}
+
+.main-container {
+  background-color: #cc0000;
+  width: 40%;
+  height: 40%;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  min-height: 160px;
+
+  text-align: center;
+  border-radius: 20px;
+
+  border: 3px dotted white;
+}
+
+/* FOOTER LIST STYLING */
+li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+/* FONT-STYLING */
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 4em;
+  margin: 0;
+  padding-top: 1%;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+label {
+  font-size: 1.25em;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.75em;
+  padding: 0 50px;
+  border-radius: 25px;
+}
+
+/* FORM STYLING */
+input {
+  margin: 0;
+  padding: 0;
+}
+
+/* ERROR MESSAGES */
+.error {
+	font-size: 1em;
+    position: absolute;
+}

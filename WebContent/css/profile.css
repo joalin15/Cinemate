@@ -1,0 +1,122 @@
+/* USED BY profile.html AND feed.html */
+
+/* CHANGE HEADER/CONTENT */
+
+#content {
+	background-color: #cc0000;
+	height: calc(100% - 80px);
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+
+
+/* STYLE PROFILE */
+.profile {
+  background-color: #ff3333;
+  height: 240px;
+}
+
+img {
+  width: 120px;
+  padding: .25%;
+}
+
+img[class="profile-pic"] {
+  border-radius: 60px;
+  max-height: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  min-width: 120px;
+}
+
+.profile, .other-content {
+  text-align: center;
+  width: 100%;
+}
+
+.other-content {
+  border-top: 5px dotted white;
+  background-color: #cc0000; 
+ position: relative;
+  height: calc(100% - 240px);
+}
+
+button[class="follow-button"] {
+	float: right;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+
+
+.feed-event {
+	font-size: 1.25em;
+	text-align: right;
+}
+.action-pic-profile {
+	transform: translateY(2px) !important;
+	margin-right: 5px;
+	width: 30px !important;
+}
+
+.rating {
+	width: 60px !important;
+}
+
+a[class="feed-event"] {
+	margin: 0 5px !important;
+	color: lightgrey;
+	font-size: 1em;
+}
+.action-date {
+    font-size: .60em;
+}
+
+/* STYLE FOLLOWING/FEED/FOLLOWERS FOR PROFILE */
+.followers, .following {
+  display: inline-table;
+  padding: 20px;
+  width: 25%;
+  margin: 0.5% 2%;
+  border-radius: 10px;
+}
+
+ul {
+	padding: 0;
+}
+
+a[class="specificList"] {
+  display: table;
+  margin: 0 auto;
+  font-size: 16px;
+  fong-weight: light;
+}
+
+a[class="specificList"]:hover {
+  font-weight: bold;
+}
+
+div[class="feed-event"] {
+	background-color: inherit;
+}
+
+/* STYLE FONT */
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 1.65em;
+  margin: 0;
+  padding: 0;
+  background-color: #ff3333;
+  border-radius: 10px;
+  margin: 1% auto;
+}
+
+p {
+	font-size: 1.25em;
+}

@@ -1,0 +1,33 @@
+/* HEADER STYLING */
+
+#content {
+	top: 80px;
+	background-color: #ff3333;
+	text-align: center;
+	width: 100%;
+	height: calc(100% - 80px);
+}
+
+#feed {
+	overflow: auto;
+	display: inline-table;
+	width: 60%;
+	margin: 0 auto;
+	border-left: 5px dotted white;
+	border-right: 5px dotted white;
+	height: 100%;
+	background-color: #ea0000;
+}
+
+#wrapper {
+	display: table
+}
+
+#header, #content {
+	display: table-row
+}
+
+.action-date {
+	transform: translateY(-60px);
+	font-size: .75em;
+}

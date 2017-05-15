@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+/* STYLE HEADER */
+#content {
+	display: block;
+	overflow: scroll;
+	min-height: calc(100% - 80px);
+	top: 80px;
+}
+
+.other-content {
+	display:block;
+}
+
+#header {
+  min-height: 60px;
+  height: 70px;
+}
+
+h1 {
+	font-size: 3em;
+	padding-top: 4px;
+	top: 25%;
+}
+
+/* STYLE ICONS */
+
+.icon {
+	position: absolute;
+	height: auto;
+	margin: 0;
+	top: 24%;
+}
+
+.feed-button {
+	left: 2%;
+}
+.feed-button-icon {
+	width: 38%;
+	left: 0;
+}
+.user-image {
+	left: 6%;
+    top: 15%;
+}
+.user-image-icon {
+	width: 50px;
+    border-radius: 50%;
+    left: 0;
+    height: 50px;
+}
+
+.search-bar-container {
+	left: 11%;
+	top: 30%;
+	text-align: left;
+	width: 250px;
+}
+
+.search-bar {
+	height: 20px;
+	width: 160px;
+	padding: 2.5px;
+	padding-right: 30px;
+}
+
+.search-bar-movie-icon, .search-bar-user-icon {
+	left: 67%;
+}
+
+.search-bar-movie-icon {
+	width: 23px;
+    top: 2px;
+}
+
+.search-bar-user-icon {
+	width: 26px;
+    top: 4px;
+}
+
+.search-bar-button {
+	top: 0;
+	padding-left: 10px;
+}
+
+
+.logout {
+	left: 90%;
+	top: 22%;
+}
+.logout-icon {
+	width: 40%;
+	left: 0;
+}
+.exit {
+	left: 94%;
+}
+.exit-icon {
+	width: 50%;
+	border: 1px solid white;
+	left: 0;
+}

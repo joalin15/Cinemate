@@ -1,0 +1,4 @@
+ipaddress: localhost
+db: joannlin_cinemate
+user: root
+password: hurdur44

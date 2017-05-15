@@ -1,0 +1,4 @@
+ipaddress: localhost
+db: cinemate
+user: root
+password: **insert password**

@@ -1,0 +1,63 @@
+/* USED BY signin.html */
+
+/* CONTAINER STYLING */
+.main-container {
+	padding: 10px 25px 40px 25px;
+}
+
+.input-form {
+	position: relative;
+	margin: 0 auto;
+	left: 0;
+	width: 60%;
+	height: 130px;
+	top: 5%;
+}
+
+/* FORM STYLING */
+.start-input { 
+	width: 100%; 
+	text-align: left;
+}
+
+input {
+  width: 100%;
+  height: 15px;
+}
+
+input[type="submit"] {
+	margin-top: 10px;
+	margin-left: 2px;
+} 
+
+/* STYLE SIGN-UP */
+.sign-up-link {
+	width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+.sign-up-button {
+	width: 60%;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    margin-left: 4px;
+    top: 8px;
+}
+
+/* STYLE ERROR */
+.error {
+	position: relative;
+	left: 0;
+	margin: 0 auto;
+}
+
+.error-signin {
+	top: 10px;
+}
+
+/* STYLE TEXT */
+label {
+  margin-left: 0 auto;
+}

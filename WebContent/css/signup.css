@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.input-form {
+	top: 10%;
+}
+
+input {
+	margin: 5px 0;
+}
+
+.error-signup {
+	top: 30px;
+}

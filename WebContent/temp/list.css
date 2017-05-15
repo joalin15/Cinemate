@@ -1,0 +1,21 @@
+/* USED BY msearch.html and login.html */
+
+/* LIST STYLING */
+ul[class="menu"] {
+  text-align: center;
+  padding-left: 0px;
+  margin: 0;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+li[class="menu-options"] {
+  display: table;
+  margin: 0 auto;
+}
+
+a:hover {
+  background-color: #ff3333;
+}

@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+/* USED BY profile.html AND feed.html */
+
+/* CHANGE HEADER/CONTENT */
+/* #header {
+  min-height: 110px;
+}
+#content {
+  top: 120px;
+  height: 100%;
+  background-color: #f23232;
+} */
+
+img {
+  height: 120px;
+  width: 120px;
+  margin: .5% 1% 0.5% 1%;
+}
+
+/* STYLE FOLLOWING/FOLLOWERS FOR PROFILE */
+.followers, .following {
+  display: inline-table;
+  padding: 20px;
+  width: 25%;
+  margin: 0.5% 2%;
+  border-radius: 10px;
+}
+
+li[class="specificList"] {
+  display: table;
+  margin: 0 auto;
+}
+
+
+/* STYLE FEED */
+
+div[class="feed-event"] {
+	background-color: #ea0000;
+	padding: 2%;	
+}
+
+a[class="feed-event"] {
+  padding: 0 0;
+  border-radius: 0;
+}
+
+img {
+	height: auto;
+}
+
+img[class="user-pic-feed"] {
+	border-radius: 100px;
+	width: 80px;
+	height: 80px;
+	transform: translateY(-20px);
+}
+
+img[class="action-pic-feed"] {
+	width: 60px;
+	transform: translateY(-30px);
+}
+img[class="action-pic-profile"] {
+	width: 50px;
+	transform: translateY(-30px);
+}
+
+img[class="movie-pic-feed"] {
+	width: 80px;
+	max-height: 120px;
+	min-height: 120px;
+}
+img[class="movie-pic-profile"] {
+	width: 65px;
+	max-height: 100px;
+	min-height: 100px;
+}
+
+.action-date {
+	display: inline-block;
+}
+
+
+/* STYLE FONT */
+h2 {
+  font-size: 3.8em;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 1.65em;
+  margin: 0;
+  padding: 0;
+  background-color: #ff3333;
+  border-radius: 10px;
+  margin: 1% auto;
+}
